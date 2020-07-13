@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+svg {
+  vertical-align: bottom;
+}
+
+[hidden] {
+  display: none;
+}
+
+.draggable {
+  cursor: grab;
+}
+
+.dragging {
+  cursor: grabbing;
+}

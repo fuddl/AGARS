@@ -1,21 +1,49 @@
 import React from "react"
-import { Link } from "gatsby"
+import RadialGrid from '../components/radial-grid.js'
+import Map from "../components/map"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import data from '../data/catalog.yaml'
+import lines from '../data/lines.yaml'
+import normalizer from '../data/normalize-data.js'
+
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
+  <>
+    <link href="fonts.css" rel="stylesheet" />
+    <Map width="1600" height="900" catalog={ normalizer.process(data) } lines={ lines } />
+    <svg hidden>
+      <defs>
+        <symbol id="local-grid" viewBox="-50000 -76200 100000 100000">
+          <RadialGrid
+            cx={0}
+            cy={-26200}
+            minR={26112.2}
+            r={26332.6}
+            concentricSubdivisions={10}
+            radialSubdivisions={14}
+            stroke="#333"
+            strokeWidth={.5}
+            minArc={89.755}
+            maxArc={90.355}
+            opacity={.25}
+          />
+        </symbol>
+        <symbol id="galactic-grid"  viewBox="-50000 -76200 100000 100000">
+          <RadialGrid
+            cx={0}
+            cy={-26200}
+            minR={20}
+            r={50000}
+            concentricSubdivisions={8}
+            radialSubdivisions={8}
+            stroke="white"
+            strokeWidth="1"
+            minArc={89.952}
+          />
+        </symbol>
+      </defs>
+    </svg>
+  </>
 )
 
 export default IndexPage

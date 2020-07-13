@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+	<symbol id="planet" width="10" height="10" viewBox="0 0 10 10" preserveAspectRatio="xMidYMin meet" overflow="visible">
+    	<path stroke="#fff" fill="none" d="M5 9.293L.707 5 5 .707 9.293 5z" transform="translate(-5,-5)"/>
+    </symbol>
+    <symbol id="background-planet" width="8" height="8" viewBox="0 0 8 8" preserveAspectRatio="xMidYMin meet" overflow="visible">
+    	<path stroke="#fff" d="M5 9.293L.707 5 5 .707 9.293 5z" transform="translate(-4,-4)" opacity=".5"/>
+    </symbol>
+    <symbol id="star" width="2" height="2" viewBox="0 0 2 2" preserveAspectRatio="xMidYMin meet" overflow="visible">
+    	<path fill="#fff" d="M1 2L0 1l1-1 1 1z" transform="translate(-1,-1)"/>
+    </symbol>
+    <symbol id="relay" width="4" height="3" viewBox="0 0 4 3" preserveAspectRatio="xMidYMin meet" overflow="visible">
+    	<path d="M2 0l1.732 3H.268L2 0z" fill="#fff" transform="translate(-2,-3)"/>
+    </symbol>
+</svg>

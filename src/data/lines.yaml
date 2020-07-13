@@ -1,0 +1,618 @@
+ufp:
+  color: '#1687A9'
+  lines:
+    -
+      - Earth
+      - Proxima
+    -
+      - Tellar Prime
+      - Vega IX
+      - Alcor IV
+    -
+      - Tellar Prime
+      - Altair III
+    -
+      - Earth
+      - Tellar Prime
+    -
+      - Earth
+      - Denobula
+    -
+      - Earth
+      - Andoria
+    -
+      - Earth
+      - Vulcan
+    -
+      - Tellar Prime
+      - Terra Nova
+    -
+      - Terra Nova
+      - Peliar Zel II
+    -
+      - Terra Nova
+      - Alpha III
+    -
+      - Altair III
+      - Bolarus IX
+    -
+      - Altair III
+      - Inferna Prime
+    -
+      - Bolarus IX
+      - Starbase 10
+    -
+      - Bolarus IX
+      - Starbase 718
+    -
+      - Bolarus IX
+      - Delta IV
+    -
+      - Bolarus IX
+      - Benzar
+    -
+      - Bolarus IX
+      - Aaamazzara
+      - Arbazan
+      - Izar
+      - Berengaria VII
+      - Medusa
+      - Kalandan Outpost Transit Station
+    -
+      - Berengaria VII
+      - Omega Corvus
+      - Antares B III' , 'Mantilles
+    -
+      - Zakdorn
+      - Deneb IV
+
+    -
+      - Peliar Zel II
+      - Trill
+        - Starbase 621
+
+    -
+      - Vulcan
+      - Starbase 12
+        - Deneva
+
+    -
+      - Starbase 12
+      - Argelius II
+
+    -
+      - Argelius II
+      - Starbase 23
+      - Jourot
+
+    -
+      - Starbase 23
+      - Starbase 234
+      - Starbase 105
+      - Tessen III
+      - Starbase 117
+      - Starbase 152
+      - Starbase 6
+      - Starbase 212
+
+    -
+      - Starbase 105
+      - Zalda
+
+    -
+      - Starbase 105
+      - Tyrellia
+      - Starbase 173' , 'Omicron Kappa II
+      - Calbriden Prime
+
+    -
+      - Starbase 23
+      - Starbase 24
+      - Ramatis III
+
+    -
+      - Ramatis III
+      - Ajilon Prime
+
+    -
+      - Starbase 12
+      - Cordian
+
+    -
+      - Starbase 12
+      - Tellun
+
+    -
+      - Starbase 12
+      - Dakala
+      - Betazed
+      - Starbase 211
+      - Setlik III
+
+    -
+      - Starbase 211
+      - Umoth VIII
+      - Starbase 129
+
+    -
+      - Starbase 211
+      - Starbase 310
+      - Solosos III
+
+    -
+      - Starbase 211
+      - Hanolan
+
+    -
+      - Betazed
+      - Aldebaran III
+      - Sherman
+
+    -
+      - Aldebaran III
+      - Starbase 2
+      - Starbase 11
+      - Yorktown
+
+    -
+      - Yorktown
+        - Cygnet XIV
+
+    -
+      - Yorktown
+        - Bre\'el
+
+    -
+      - Yorktown
+        - Cait
+
+    -
+      - Yorktown
+      - Galen
+
+    -
+      - Yorktown
+      - Grazer
+
+    -
+      - Yorktown
+      - Makus III
+      - Pacifica
+      - Bilana III
+      - Kessik IV
+      - Cestus III
+      - Betelgeuse II
+
+    -
+      - Bilana III
+      - Delb II
+      - Jotunheim
+
+    -
+      - Starbase 718
+      - Norkan
+      - Gamma Hydra IV
+      - Caldos
+      - Zakdorn
+
+    -
+      - Caldos
+      - Ingraham B Transit Station
+      - Antares
+
+    -
+      - Starbase 718
+      - Nimbus III
+
+    -
+      - Starbase 138
+      - Hanolan
+
+
+    -
+      - Starbase 15
+      - Communication Relay Gamma 3
+      - Communication Relay Gamma 7
+
+    -
+      - Starbase 15
+      - Communication Relay Gamma 1
+      - Communication Relay Gamma 5
+
+    -
+      - Starbase 15
+      - Communication Relay Gamma 4
+      - Communication Relay Gamma 8
+
+    -
+      - Starbase 15
+      - Communication Relay Gamma 2
+      - Communication Relay Gamma 6
+
+
+    -
+      - Communication Relay Gamma 5
+      - Communication Relay Gamma 6
+      - Communication Relay Gamma 7
+      - Communication Relay Gamma 8
+
+    -
+      - Communication Relay Gamma 1
+      - Communication Relay Gamma 2
+      - Communication Relay Gamma 3
+      - Communication Relay Gamma 4
+    -
+      - Communication Relay Gamma 1
+      - Communication Relay Gamma 2
+      - Communication Relay Gamma 3
+      - Communication Relay Gamma 4
+          
+neutral-trade:
+  color: 'white'
+  lines:
+    -
+      - Sherman
+      - Deep Space K-7
+          
+klingon-empire:
+  color: '#9e0c01'
+  lines:
+
+    -
+      - Quo\'Nos
+      - Qu\'Vat
+
+    -
+      - Quo\'Nos
+      - Korvat
+
+    -
+      - Quo\'Nos
+      - Gamma Eridon
+
+    -
+      - Quo\'Nos
+      - Anarchis
+      - Ganalda IV
+      - Ardana
+
+    -
+      - Ganalda IV
+      - Gamma Eridon
+
+    -
+      - Sherman
+      - Organia
+      - Amar
+      - Ardana
+      - Gamma Eridon
+
+    -
+      - Quo\'Nos
+      - Krios Prime
+
+    -
+      - Krios Prime
+      - Halee II
+
+    -
+      - Krios Prime
+      - Valt
+
+    -
+      - Krios Prime
+      - Ikalia
+
+    -
+      - Krios Prime
+      - Ty\'Gokor
+
+    -
+      - Krios Prime
+      - Qu\'Vat
+
+    -
+      - Krios Prime
+      - MZ5
+
+    -
+      - Quo\'Nos
+      - Ganalda IV
+
+    -
+      - Quo\'Nos
+      - B\'Moth
+
+    -
+      - Quo\'Nos
+      - Kinkuthanza III
+      - Arachne IV
+      - Torna IV
+      - Somraw', "Q'Tahl", 'Torna IV
+
+    -
+      - Maranga IV
+      - Somraw
+
+    -
+      - Korvat
+      - Morska
+
+    -
+      - Korvat
+      - Qu\'Vat
+      - Mempa
+      - Beta Lankal
+
+    -
+      - Mempa
+      - Beta Lankal
+      - Pheben V
+      - Archer
+      - Narendra III
+      - H\'atoria
+
+    -
+      - Kinkuthanza III
+      - Dayos IV
+      - Forcas III
+      - Amar
+      - Boreth
+      - Dayos IV
+
+    -
+      - Boreth
+      - Forcas III
+      - Gamma Eridon
+      - Tiqchirgh
+
+            
+minor-trade-routes:
+  color: '#333'
+  lines:
+    -
+      - Barolia
+      - Rigel V
+      - Orion
+    -
+      - Barolia
+      - Rator III
+        
+cardassian-union:
+  color: '#9b6200'
+  lines:
+    -
+      - Cardassia Prime
+      - Amleth Prime
+      - Loval
+
+    -
+      - Cardassia Prime
+      - Atbar Prime
+
+    -
+      - Cardassia Prime
+      - Kelvas V
+
+    -
+      - Cardassia Prime
+      - Korma
+
+    -
+      - Cardassia Prime
+      - Lazon II
+
+    -
+      - Cardassia Prime
+      - Monac IV
+
+    -
+      - Cardassia Prime
+      - Omekla III
+
+    -
+      - Cardassia Prime
+      - Quatal Prime
+      - Chin\'Toka
+
+    -
+      - Cardassia Prime
+      - Rakal
+
+    -
+      - Cardassia Prime
+      - Regulak IV
+
+    -
+      - Cardassia Prime
+      - Torros III
+      - Sarpedion V
+      - Dopa
+
+    -
+      - Cardassia Prime
+      - Septimus III
+
+    -
+      - Cardassia Prime
+      - Simperia
+
+    -
+      - Cardassia Prime
+      - Veloz Prime
+
+    -
+      - Sarpedion V
+      - Unefra III
+
+ferengi-aliance:
+  color: '#9b6200'
+  lines:
+    -
+      - Ferenginar
+      - Lappa IV
+
+    -
+      - Ferenginar
+      - Clarus
+
+    -
+      - Ferenginar
+      - Clarus
+
+    -
+      - Ferenginar
+      - Rog
+
+    -
+      - Ferenginar
+      - Thalos VI
+
+    -
+      - Ferenginar
+      - Volchok Prime
+
+    -
+      - Ferenginar
+      - Balancar
+
+    -
+      - Volchok Prime
+      - Rog
+      - Clarus
+      - Balancar
+      - Lappa IV
+
+
+romulan-empire:
+  color: 'green'
+  lines:
+    -
+      - Romulus
+      - Achernar Prime
+
+    -
+      - Romulus
+      - Romii I
+    -
+      - Romulus
+      - Nimbus III
+    -
+      - Romulus
+      - Rator III
+      - Unroth III
+      - Chaltok IV
+      - Achernar Prime
+    -
+      - Unroth III
+      - Sheratan VII
+      - Virinat I
+    -
+      - Unroth III
+      - Crateris
+    -
+      - Rator III
+      - Rhi III
+    -
+      - Romulus
+      - Unroth III
+      - Eloh
+     
+voyager:
+  color: blue
+  lines:
+    -
+      - Ocampa
+      - Markov-Kalto
+      - Rogue Planet' , 'Banea
+      - FGC-486237
+      - Sikaris
+      - Ilidaria
+      - Avery
+      - Briori
+      - Tarok
+      - Supspiria\'s Array
+      - Sky Spirits Homeworld
+      - Pralor
+      - Mokra
+      - Rakosa V
+      - Hemikek IV
+      - Fina Prime
+      - Kolhari
+      - Drayan II
+      - Kohl Settlement
+      - New Earth
+      - Hanon IV
+      - Takar
+      - Heva VII
+      - Akritirian Prison Satellite
+      - Enara Prime
+      - Mislen
+      - Tak Tak
+      - Arakis Prime
+      - Nekrit Station
+      - FGC-505183
+      - Sakari
+      - Parein
+      - Nezu Colony
+      - Mikhal Traveler Outpost
+      - Taresia
+      - Vostigye Space Station
+      - Nyria V
+      - Borg Colony
+      - North West Passage
+      - Kradin-Vori
+      - Arrithea
+      - Garenor
+      - Nassordin
+      - FGC-7861340
+      - Mari
+      - Tau
+      - Hirogen Relay Station
+      - Enthara
+      - Kendren IV
+      - Omega
+      - Mikah
+      - Vaska
+      - Demon Planetoid
+      - Trading Colony
+      - Vortex Void
+      - Vortex
+      - FGC-521443
+      - FGC-521407
+      - The Waters', "Lav'oti V", 'Tehara
+      - Torat
+      - Telepathic pitcher plant
+      - Subspace sinkhole
+      - Natori
+      - FGC-527205
+      - Think Tank
+      - FGC-527609
+      - Kadi
+      - FGC-529006
+      - FGC-530007
+      - Markonian outpost
+      - Devore Colony
+      - Vaadwaur
+      - Abbadon's Repository
+      - Particle Fountain
+      - Graviton Catapult
+      - Pendari
+      - Norcadia Prime
+      - Tachyon-Core Planet
+      - Qomar
+      - Brunali
+      - Selnia
+      - Wyanti
+      - Selnia
+      - FGC-538960
+      - Dinaal
+      - FGC-542081
+      - Lokirrim
+      - Kraylor
+      - Hirogen Space Station
+      - Vojean
+      - Quarra
+      - Uxal
+      - Ledos
+      - New Talax
