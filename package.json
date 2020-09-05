@@ -16,6 +16,7 @@
     "gatsby-transformer-sharp": "^2.2.13",
     "gatsby-transformer-yaml": "^2.2.8",
     "js-yaml-loader": "^1.2.2",
+    "object-hash": "^2.0.3",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",

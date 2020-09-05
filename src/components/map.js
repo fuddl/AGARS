@@ -1,6 +1,7 @@
 import React from "react"
 import "./map.css"
 import intersect from "box-intersect"
+import objHash from "object-hash"
 
 class Map extends React.Component {
   constructor(props) {
@@ -12,6 +13,7 @@ class Map extends React.Component {
       yOffset: 0,
       dragging: false,
       zoom: 1,
+      inSight: [],
     };
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
   }
@@ -19,6 +21,27 @@ class Map extends React.Component {
   componentDidMount() {
     this.updateWindowDimensions();
     window.addEventListener('resize', this.updateWindowDimensions);
+
+  }
+
+  componentDidUpdate(prevProps, prevState, snapshot) {
+    let occupied = [];
+    let inSight = {};
+
+    for(let key in this.refs) {
+      let thing = this.refs[key];
+      let bbox = thing.current.getBBox();
+      let box = [bbox.x, bbox.y, bbox.x+bbox.width, bbox.y+bbox.height];
+      if (intersect(occupied, [box]).length === 0) {
+        occupied.push(box);
+        inSight[key] = true;
+      } else {
+        inSight[key] = false;
+      }
+    };
+    if (objHash(prevState.inSight) !== objHash(inSight)) {
+      this.setState(Object.assign(this.state, {inSight: inSight}));
+    }
   }
 
   componentWillUnmount() {
@@ -77,6 +100,7 @@ class Map extends React.Component {
   }
 
   render() {
+
     const w = this.state.width;
     const h = this.state.height;
     const z = Math.abs(this.state.zoom);
@@ -108,8 +132,17 @@ class Map extends React.Component {
 
     let occupied = [];
 
-    occupied.push([[(xo + w) / z], [yo / z], (xo + w) / z + 1, [ (yo + h) / z ]]);
+    occupied.push([
+      [
+        xo / z,
+        yo / z,
+        (xo + w) / z,
+        (yo + h) / z
+      ]
+    ]);
     
+    this.refs = {};
+
     let objects = [];
     let safeSize = 12 / z;
     let fontXOffset = 6 / z;
@@ -122,11 +155,8 @@ class Map extends React.Component {
         if (c.x > xo / z && c.x < (w + xo) / z) {
           if (c.y > yo / z && c.y < (h + yo) / z) {
             let box = [c.x-safeSize, c.y-safeSize, c.x+safeSize, c.y+safeSize];
-            let labelBox = key ? [c.x+fontXOffset, c.y+fontYOffset, c.x+(fontHeight*key.length), c.y+fontHeight] : false;
             let label = [];
-            if (intersect(occupied, [box]).length === 0 && (!labelBox || intersect(occupied, [labelBox]).length === 0 )) {
-              occupied.push(box);
-              occupied.push(labelBox);
+            if (intersect(occupied, [box]).length == 0) {
               if (thing.host) {
                 label.push(
                   <text
@@ -135,6 +165,10 @@ class Map extends React.Component {
                     fill="white"
                     class="host-label"
                     fontSize={ 4.86 / z }
+
+                    stroke-width={ 2 / z }
+                    stroke="#000"
+                    paint-order="stroke"
                   >
                     { thing.host.toUpperCase() } SYSTEM
                   </text>
@@ -147,24 +181,22 @@ class Map extends React.Component {
                   y={ thing.host ? thing.coordinates.y + 9.5 / z : thing.coordinates.y + 4 / z }
                   fill="white"
                   fontSize={ 11.65 / z }
+                  stroke-width={ 1 / z }
+                  stroke="#000"
+                  paint-order="stroke"
                 >
                   { key.toUpperCase() }
                 </text>
               )
             }
             if (label.length > 0) {
-              objects.push(
+              this.refs[key] = React.createRef();
+              objects.push((
                 <g key={ key }>
-                  <use href="/markers.svg#planet" x={ thing.coordinates.x } y={ thing.coordinates.y } width={ 10 / z } />
-                  { label }
+                  <use href={ this.state.inSight[key] ? "/markers.svg#planet" : "/markers.svg#background-planet" }  x={ thing.coordinates.x } y={ thing.coordinates.y } width={ (this.state.inSight[key] ? 10 : 4)  / z }/>
+                  <g ref={ this.refs[key] } visibility={ this.state.inSight[key] ? 'visible' : 'hidden' }>{ label }</g>
                 </g>
-              );
-            } else {
-              objects.push(
-                <g key={ key }>
-                  <use href="/markers.svg#background-planet" x={ thing.coordinates.x } y={ thing.coordinates.y } width={ 8 / z } />
-                </g>
-              );
+              ));
             }
           }
         }
@@ -198,7 +230,7 @@ class Map extends React.Component {
           height="100000"
           width="100000"
         />
-        { lines }
+        <g>{ lines }</g>
         { objects }
       </svg>
     )
