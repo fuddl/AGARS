@@ -113,6 +113,8 @@ Breen:
       x: -100.035
       y: -16.904
       z:
+  fractions:
+    - breen
 Deep Space K-7:
   Mandel:
     label: Deep Space K-7
@@ -173,6 +175,8 @@ Starbase 12:
       y: 24
       z:
   type: station
+  fractions:
+  - federation
 Tomed:
   type: star
   Mandel_2018:
@@ -211,6 +215,8 @@ Starbase 22:
       y: 17.353
       z:
   type: station
+  fractions:
+  - federation
 Starbase 88:
   Mandel_2018:
     label: Starbase 88
@@ -219,6 +225,8 @@ Starbase 88:
       y: 49.308
       z:
   type: station
+  fractions:
+  - federation
 Starbase 24:
   Mandel:
     label: Starbase 24
@@ -227,6 +235,8 @@ Starbase 24:
       y: 47.44
       z:
   type: station
+  fractions:
+  - federation
 Delphi Ardu IV:
   Mandel_2018:
     label: Delphi Ardu
@@ -278,6 +288,8 @@ Starbase 234:
       y: 31.44
       z: 0
   type: station
+  fractions:
+  - federation
 Starbase 211:
   Mandel:
     label: Starbase 211
@@ -286,6 +298,8 @@ Starbase 211:
       y: 49.463
       z:
   type: station
+  fractions:
+  - federation
 Starbase 212:
   Mandel_2018:
     label: Starbase 212
@@ -294,6 +308,8 @@ Starbase 212:
       y: 56.46
       z:
   type: station
+  fractions:
+  - federation
 Starbase 23:
   Mandel:
     label: Starbase 23
@@ -302,6 +318,8 @@ Starbase 23:
       y: 18.679
       z:
   type: station
+  fractions:
+  - federation
 Starbase 718:
   Mandel:
     label: Starbase 718
@@ -310,6 +328,8 @@ Starbase 718:
       y: -50.938
       z:
   type: station
+  fractions:
+  - federation
 Starbase 10:
   Mandel:
     label: Starbase 10
@@ -324,6 +344,8 @@ Starbase 10:
       y: -64.103
       z: null
   type: station
+  fractions:
+  - federation
 Briamos II:
   Shisma:
     coordinates:
@@ -416,6 +438,8 @@ Starbase 310:
       y: 41
       z:
   type: station
+  fractions:
+  - federation
 Starbase 9:
   Maynard:
     label: 9
@@ -430,6 +454,8 @@ Starbase 9:
       y: 13.376
       z:
   type: station
+  fractions:
+  - federation
 Black Star:
   Maynard:
     label: Black Star
@@ -467,6 +493,8 @@ Starbase 11:
       y: 0
       z: null
   type: station
+  fractions:
+  - federation
 Starbase 47:
   Mandel:
     label: Starbase 47
@@ -475,6 +503,8 @@ Starbase 47:
       y: 62.954
       z:
   type: station
+  fractions:
+  - federation
 Vanguard:
   type: station
   Mandel_2018:
@@ -483,6 +513,8 @@ Vanguard:
       x: -3.759
       y: 196.342
       z:
+  fractions:
+  - federation
 Starbase G6:
   Mandel:
     label: Starbase G-6
@@ -949,7 +981,6 @@ Dakala:
       x: -11.61
       y: 42.632
       z:
-  fractions:
 Alphard: # Battle of Alphard?
   type: star
   Shisma:
@@ -1865,6 +1896,8 @@ Fesarius:
     coordinates:
       x: -96.081
       y: -240.529
+  fractions:
+    - first-federation
 Bolarus IX:
   Mandel:
     label: Bolarus
@@ -3666,6 +3699,8 @@ Talar:
       x: -86.1
       y: 77.1
       z:
+  fractions:
+    - talar
 Beloti:
   Mandel:
     label: Beloti
@@ -3682,15 +3717,15 @@ Dinasia:
       z:
   fractions:
   - klingon
-Iccobar:
-  Mandel:
-    label: Iccobar
-    coordinates:
-      x: 97
-      y: 18.5
-      z:
-  fractions:
-  - klingon
+# Iccobar:
+#   Mandel:
+#     label: Iccobar
+#     coordinates:
+#       x: 97
+#       y: 18.5
+#       z:
+#   fractions:
+#   - klingon
 Balduk:
   Mandel:
     label: Balduk
@@ -5476,6 +5511,8 @@ Tiburon:
       x: -121.9
       y: -207.4
       z: 236.4
+  fractions:
+    - federation
 Beta Renner:
   interesting: false
   wd: Q55738952
@@ -5879,6 +5916,8 @@ Tholia:
       x: -167.746
       y: 113.613
       z:
+  fractions:
+    - tholian
 Eminiar VII:
   Maynard:
     label: Eminiar
@@ -7042,6 +7081,8 @@ Tzenketh:
       x: -47.359
       y: 14.162
       z:
+  fractions:
+    - tzenketh
 Alpha Majoris I:
   Maynard:
     label: Alpha Majoris 2 (I)
@@ -8302,6 +8343,8 @@ Starbase 1:
       x: 0.498
       y: 1.436
       z:
+  fractions:
+  - federation
 Starbase 200:
   type: station
   Mandel_2018:
@@ -8310,6 +8353,8 @@ Starbase 200:
       x: -69.274
       y: 182.142
       z:
+  fractions:
+  - federation
 Monchezke:
   Shisma:
     label: Monchezke
@@ -8317,6 +8362,8 @@ Monchezke:
       x: -19.795
       y: -36.517
       z:
+  fractions:
+  - federation
 Starbase 366:
   type: station
   Mandel_2018:
@@ -8325,7 +8372,8 @@ Starbase 366:
       x: 209.785
       y: 12.166
       z:
-
+  fractions:
+  - federation
 Starbase 185:
   type: station
   Mandel_2018:
@@ -8334,6 +8382,8 @@ Starbase 185:
       x: 104.501
       y: -87.007
       z:
+  fractions:
+  - federation
 Starbase 18:
   Maynard:
     label: 18
@@ -8348,6 +8398,8 @@ Starbase 18:
       y: 51.674
       z:
   type: station
+  fractions:
+  - federation
 Delta Theta III:
   Maynard:
     label: Delta Theta 7 (III)
@@ -8367,6 +8419,8 @@ Starbase 15:
       y: 0
       z: null
   type: station
+  fractions:
+  - federation
 Starbase 123:
   Mandel:
     label: Starbase 123
@@ -8375,6 +8429,8 @@ Starbase 123:
       y: 15.2
       z:
   type: station
+  fractions:
+  - federation
 Starbase 157:
   sto:
     label: Starbase 157
@@ -8383,6 +8439,8 @@ Starbase 157:
       y: 86.376
       z:
   type: station
+  fractions:
+  - federation
 Starbase 117:
   Mandel:
     label: Starbase 117
@@ -8391,6 +8449,8 @@ Starbase 117:
       y: 62.616
       z:
   type: station
+  fractions:
+  - federation
 Starbase 173:
   Mandel:
     label: Starbase 173
@@ -8399,6 +8459,8 @@ Starbase 173:
       y: -5.757
       z:
   type: station
+  fractions:
+  - federation
 Starbase 343:
   Mandel:
     label: Starbase 343
@@ -8407,6 +8469,8 @@ Starbase 343:
       y: 37.311
       z:
   type: station
+  fractions:
+  - federation
 Ingraham B Transit Station:
   Shisma:
     label: Ingraham B Transit Station

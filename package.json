@@ -6,6 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "box-intersect": "^1.0.2",
+    "cheerio": "*",
     "gatsby": "^2.15.6",
     "gatsby-image": "^2.2.17",
     "gatsby-plugin-manifest": "^2.2.13",
@@ -21,6 +22,7 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
+    "xml2js": "^0.4.23",
     "yaml": "^1.6.0"
   },
   "devDependencies": {
