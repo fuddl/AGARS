@@ -83,7 +83,6 @@ class grid extends _react.default.Component {
       _react.default.Fragment,
       null,
       /*#__PURE__*/ _react.default.createElement("path", {
-        vectorEffect: "non-scaling-stroke",
         stroke: attributes.stroke,
         fill: "none",
         strokeWidth: attributes.strokeWidth,
@@ -113,7 +112,6 @@ class grid extends _react.default.Component {
       _react.default.Fragment,
       null,
       /*#__PURE__*/ _react.default.createElement("circle", {
-        vectorEffect: "non-scaling-stroke",
         cx: attributes.cx,
         cy: attributes.cy,
         r: attributes.r,
@@ -203,7 +201,6 @@ class grid extends _react.default.Component {
         null,
         output,
         /*#__PURE__*/ _react.default.createElement("line", {
-          vectorEffect: "non-scaling-stroke",
           x1: startX,
           y1: startY,
           x2: endX,

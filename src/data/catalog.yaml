@@ -26,6 +26,11 @@ Earth:
       x: 0
       y: 0
       z: 0
+  sto:
+    label: Sol 
+    coordinates: 
+      x: 2
+      y: 2
   fractions:
   - federation
 Quo'Nos:
@@ -123,6 +128,8 @@ Deep Space K-7:
       y: 63.6
       z:
   type: station
+  fractions:
+    - federation
 Deep Space K-8:
   Maynard:
     label: K-8
@@ -201,6 +208,7 @@ Khitomer:
       y: 47.9
       z:
   Mandel:
+    label: Khitomer
     coordinates:
       x: 77.5
       y: 47.9
@@ -3508,6 +3516,8 @@ Rigel VIII:
       x: -209.9
       y: 7.7
       z: -136
+  fractions:
+    - federation
 Deneva:
   wd: Q57004803
   Mandel:
@@ -5514,7 +5524,6 @@ Tiburon:
   fractions:
     - federation
 Beta Renner:
-  interesting: false
   wd: Q55738952
   Mandel:
     label: Beta Renner (Antica, Selay)
@@ -5522,6 +5531,8 @@ Beta Renner:
       x: -266
       y: 241
       z:
+  fractions:
+    - federation
 Antica:
   Mandel:
     coordinates: *beta-renner
@@ -7123,15 +7134,15 @@ Bhea:
       z:
   fractions:
   - orion syndicate
-Badlads:
+Badlands:
   sto:
-    label: Badlads
+    label: Badlands
     coordinates:
       x: -67.041
       y: 23.606
       z: 0
-  DS9:
-    label: Badlads
+  DS9: &badlandsCanon
+    label: Badlands
     coordinates:
       x: -64.73
       y: 23.151
@@ -7156,6 +7167,7 @@ Badlads:
       height: 12.552
       left: -72.913
       top: 16.313
+  Mandel: *badlandsCanon
 McAllister:
   Mandel:
     label: McAllister C-5 Nebula
@@ -7205,7 +7217,7 @@ Hydrae:
       83.064,92.095 83.53,92.365 C83.996,92.635 83.831,93.401 83.53,93.581 C83.473,93.615
       82.966,94.291 83.338,94.527 C83.71,94.764 83.473,95.203 82.899,95.405 C82.324,95.608
       81.48,95.811 81.581,95.811 z
-Briar Patch:
+Briar Patch: &briarpathCanon
   type: nebula
   DIS:
     label: Briar Patch
@@ -7223,6 +7235,7 @@ Briar Patch:
       height: 8.618
       left: 10.114
       top: 46.894
+  Mandel: *briarpathCanon
 Gon'Cra Nebula:
   type: nebula
   sto:
