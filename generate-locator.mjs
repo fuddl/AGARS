@@ -53,11 +53,14 @@ const oWidth = 1000
 let shortDesc = `According to: Mandel, G. (2002). Star Trek Star Charts: The Complete Atlas of Star Trek (1 ed.). Pocket Books. ISBN 0-7434-3770-5`
 
 for (const key in c) {
-	for (const src of ["Mandel", "Mandel_2018", "sto"]) {
+	for (const src of ["Mandel", "Mandel_2018", "sto", "PIC"]) {
 		let fileSuffix = `in local space`
 		const data = c[key][src]
-		if (key !== "Antares" && key !== "Mintaka") {
+		if (src !== "PIC") {
 			//continue
+		}
+		if (c[key]?.type === "post" || c[key]?.interesting === false) {
+			continue
 		}
 		if (
 			data &&
@@ -72,6 +75,9 @@ for (const key in c) {
 			const dist = Math.sqrt(
 				Math.pow(data.coordinates.x, 2) + Math.pow(data.coordinates.y, 2)
 			)
+			if (dist > 1100) {
+				continue
+			}
 			let zoom = 100 / Math.max(dist, 100)
 			let clipWidth = 250 / zoom
 			let clipHeight = clipWidth * 0.618
@@ -129,6 +135,30 @@ for (const key in c) {
 				})
 			}
 			let grid = ReactDOMServer.renderToStaticMarkup(gridData.render())
+			if (src === "PIC") {
+				zoom = 0.9
+				clipWidth = 345 / zoom
+				clipHeight = 195 / zoom
+				center.x = 45 - clipWidth / 2
+				center.y = 23 - clipHeight / 2
+				grid = ""
+				for (let x = -9; x < 15; x++) {
+					for (let y = -5; y < 8; y++) {
+						grid = grid.concat(
+							"",
+							`<rect
+								x="${15 * x}"
+								y="${15 * y}"
+								height="15"
+								width="15"
+								stroke="black"
+								stroke-width="${0.17290001 / zoom}"
+								fill="none"
+							/>`
+						)
+					}
+				}
+			}
 			if (src === "sto") {
 				fileSuffix = "in STO"
 				shortDesc = `Accordion to Star Trek: Online's 'Sector space'. Solid black lines represent sectors in the latest version. Dotted lines represent sector blocks in older versions of Star Trek: Online.`

@@ -2485,6 +2485,11 @@ Pahvo:
       x: 7.548
       y: 46.62
       z:
+  PIC:
+    label: Pahvo
+    coordinates:
+      x: 31.755
+      y: 68.301
 Castor:
   Mandel:
     label: Castor (Alpha Geminorum)
@@ -3265,6 +3270,8 @@ Sauria:
       x: -166.3
       y: -43.3
       z: 62.1
+  fractions:
+    - federation
 Stameris:
   Mandel:
     label: Stameris (Lambda Serpentis)
@@ -4104,6 +4111,11 @@ Denobula:
       x: 29.033
       y: 5.518
       z:
+  PIC:
+    label: Denobula
+    coordinates:
+      x: 36.684
+      y: 6.979
 Cheron:
   Mandel:
     label: Cheron (83 Leonis)
@@ -6931,6 +6943,11 @@ Omega IV:
       x: -88.4
       y: 224.4
       z: 2
+  PIC:
+    label: Omega
+    coordinates:
+      x: 164.962
+      y: 52.704
 Omicron Delta:
   Maynard:
     label: Omicron Delta 10 (IV)
@@ -7007,6 +7024,11 @@ Sigma Iotia Ⅱ:
       x: -5.7
       y: -144.2
       z: -109.1
+  PIC:
+    label: Sigma Iotia 
+    coordinates: 
+      x: 200.21
+      y: 30.888
 Tarsus IV:
   Maynard:
     label: Tarsus
@@ -7689,9 +7711,12 @@ Miri:
   Maynard:
     label: UFC 347601
     coordinates:
-      x: -43.3
-      y: -103.5
-      z: -82.3
+      x: 9.231
+      y: -54.927
+  PIC:
+    label: FGC-347601 (Miri)
+    coordinates:
+
 Beta Omicron Delta Ⅲ:
   wd: Q48976200
 Ekos:
@@ -8356,8 +8381,13 @@ Starbase 1:
       x: 0.498
       y: 1.436
       z:
+  PIC:
+    label: Starbase 1
+    coordinates:
+      x: 3.504
+      y: 3.001
   fractions:
-  - federation
+    - federation
 Starbase 200:
   type: station
   Mandel_2018:
