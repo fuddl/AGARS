@@ -1,0 +1,13 @@
+SELECT ?work ?workLabel ?time WHERE {
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+  ?work p:P840 ?statement.
+  ?statement ps:P840 wd:Q834003.
+  {
+    ?statement pq:P585 ?time.
+  } UNION {
+    ?statement pq:P580 ?time.
+  } UNION {
+    ?statement pq:P1326 ?time.
+  }
+} ORDER BY (?time)
+

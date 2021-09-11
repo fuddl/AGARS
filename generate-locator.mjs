@@ -55,6 +55,9 @@ let shortDesc = `According to: Mandel, G. (2002). Star Trek Star Charts: The Com
 for (const key in c) {
 	for (const src of ["Mandel", "Mandel_2018", "sto", "PIC"]) {
 		let fileSuffix = `in local space`
+		if (!c[key].hasOwnProperty(src)) {
+			continue
+		}
 		const data = c[key][src]
 		if (src !== "PIC") {
 			//continue
@@ -341,7 +344,6 @@ for (const key in c) {
 							.get()
 							.map(p => {
 								let sto = $(p).attr("data-sto")
-								console.debug(sto)
 								if (
 									(src === "sto" && sto !== "hidden") ||
 									(src === "sto" && typeof sto == "undefined") ||
@@ -360,7 +362,7 @@ for (const key in c) {
 						</g>
 						<use xlink:href="#dmz" stroke="#DFDFDF" stroke-width="${3 - 2 / zoom}" />
 						${
-							src !== "sto"
+							!["sto", "PIC"].includes(src)
 								? `<g stroke="#646666" stroke-width="3.5">
 									  	<path fill="none" id="rnz" d="M123.267,-11.658 C123.267,-11.658 130.52,-1.154 130.62,6.049 C130.72,13.252 125.918,20.455 124.967,21.556 C124.017,22.656 118.565,27.558 113.563,28.409 C108.561,29.259 96.256,28.909 88.252,27.008 C80.249,25.107 41.884,6.396 29.989,-5.5 C21.697,-13.792 19.951,-32.195 20.387,-35.178 C20.824,-38.16 22.351,-43.761 23.952,-46.743 C25.552,-49.725 31.807,-55.326 33.844,-56.126 C35.881,-56.927 50.574,-59.254 58.575,-56.126 C66.577,-52.999 71.887,-50.235 71.887,-50.235" stroke-linecap="round"/>
 									 </g>
