@@ -910,7 +910,9 @@ P'Jem:
       z:
 Vulcan:
   host: 40 Eridani 
-  wd: Q1088708
+  wd: 
+    - Q1088708
+    - Q57033986
   ENT:
     label: Vulcan (40 Eridani A)
     coordinates:
@@ -1015,6 +1017,7 @@ Tagus III:
       y: 8.5
       z:
 Teneebia:
+  wd: Q57032322
   host: Alpha Comae Berenices
   Mandel:
     label: Teneebia (Diadem, Alpha Comae Beren)
@@ -2398,6 +2401,10 @@ Goren:
       z:
 Pahvo:
   wd: Q42762633
+  Mandel_2018:
+    coordinates:
+      x: 33.116
+      y: 72.625
   DIS:
     label: Pahvo
     coordinates:
@@ -2615,7 +2622,9 @@ Rakal:
   fractions:
   - cardassian
 Chin'Toka:
-  wd: Q57032770
+  wd:
+    - Q57032770
+    - Q860747
   Mandel:
     label: Chin´Toka
     coordinates:
@@ -2648,6 +2657,7 @@ Alpha Trianguli:
   interesting: false
   type: star
 Merak II:
+  wd: Q57033825
   Johnson:
     label: Merak II
     coordinates:
@@ -3093,6 +3103,7 @@ Nashira:
       z:
   type: star
 Neural:
+  wd: Q57032909
   Mandel:
     label: Neural (Zeta Bootis)
     star: Zeta Bootis
@@ -3147,6 +3158,7 @@ Angel I:
       y: -61.1
       z:
 Delta IV:
+  wd: Q57032914
   host: Delta Triciatu
   Mandel:
     label: Delta
@@ -3497,6 +3509,7 @@ Valakis:
       y: 25.6
       z:
 Coridan:
+  wd: Q64681785
   Mandel:
     label: Cordian (Chi 1 Orionis)
     coordinates:
@@ -3518,6 +3531,7 @@ Coridan:
   fractions:
   - federation
 Maluria:
+  wd: Q57033053
   Mandel:
     label: Maluria (Epsilon Fornacis)
     star: Epsilon Fornacis
@@ -3564,6 +3578,7 @@ Xarantine:
   real: true
   wd: Q3599937
 Yridia Prime:
+  wd: Q57033073
   Mandel:
     label: Yridia
     coordinates:
@@ -3718,6 +3733,7 @@ Tranome Sar:
   fractions:
   - klingon
 Nequencia:
+  wd: Q57033139
   DIS:
     label: Nequencia
     coordinates:
@@ -3799,6 +3815,7 @@ Unroth III:
   fractions:
   - romulan
 Alpha Onias III:
+  wd: Q57033156
   Mandel:
     label: Alpha Onias
     coordinates:
@@ -3847,6 +3864,7 @@ Hyralan:
       y: 20
       z:
 Iconia:
+  wd: Q57033172
   Mandel:
     label: Iconia
     coordinates:
@@ -3872,6 +3890,7 @@ Alpha Pictoris:
   type: star
   real: true
 Vendor II:
+  wd: Q57033175
   Mandel:
     label: Vendor
     coordinates:
@@ -3983,6 +4002,7 @@ Gamma Mensae:
   real: true
   type: star
 Terix:
+  wd: Q57033181
   Mandel:
     label: Terix
     coordinates:
@@ -4061,6 +4081,7 @@ Rho Tucanae:
   type: star
   real: true
 Garadius IV:
+  wd: Q57033188
   Mandel:
     label: Garadius (Delta Muscae)
     star: Delta Muscae
@@ -4145,6 +4166,7 @@ Kostolain:
       y: 54.6
       z:
 Beta Lankal:
+  wd: Q57033204
   Mandel:
     label: Beta Lankal
     coordinates:
@@ -4212,6 +4234,7 @@ Archer IV:
   fractions:
   - klingon
 Amargosa:
+  wd: Q57033217
   Mandel:
     label: Amargosa
     coordinates:
@@ -4789,6 +4812,7 @@ Arbazan:
   fractions:
   - federation
 Aaamazzara:
+  wd: Q57033626
   host: Epsilon Serpentis
   Mandel:
     label: Aaamazzara (Therbia, Epsilon Serpentis)
@@ -4877,6 +4901,7 @@ Kazar:
       y: 94.4
       z:
 Japori II:
+  wd: Q57033650
   Mandel:
     label: Japori (Beta Caeli)
     star: Beta Caeli
@@ -4913,6 +4938,7 @@ Gamma Eridon:
   fractions:
   - klingon
 Cait:
+  wd: Q57033658
   Mandel:
     label: Cait (15 Lyncis)
     coordinates:
@@ -4996,6 +5022,7 @@ Unefra III:
       y: 45.7
       z:
 Sarpedion V:
+  wd: Q3416128
   Mandel:
     label: Sarpedion
     coordinates:
@@ -5046,6 +5073,7 @@ Tammeron:
       y: 64.3
       z:
 H'atoria:
+  wd: Q57033696
   Mandel:
     label: H'atoria
     coordinates:
@@ -5055,6 +5083,7 @@ H'atoria:
   fractions:
   - klingon
 Beta Thoridar:
+  wd: Q57033698
   Mandel:
     label: Beta Thoridar
     coordinates:
@@ -5192,6 +5221,7 @@ Zalkon:
       y: -96.8
       z:
 Kessik IV:
+  wd: Q57033747
   Mandel:
     label: Kessik
     coordinates:
@@ -5237,6 +5267,7 @@ Ventax II:
       y: 186.574
       z:
 Gamma Tauri IV:
+  wd: Q57033753
   Mandel:
     label: Gamma Tauri
     parent-wd: Q1493218
@@ -5246,6 +5277,7 @@ Gamma Tauri IV:
       y: 142.58
       z:
 Grazer:
+  wd: Q57033755
   Mandel:
     label: Grazer
     coordinates:
@@ -5324,6 +5356,7 @@ Vorenus:
       z:
 Ucali Prime: {}
 Tiburon:
+  wd: Q57033770
   Mandel:
     label: Tiburon (Omega Fornacis)
     star: Omega Fornacis
@@ -5512,6 +5545,7 @@ Marcos XII:
       y: 82.8
       z: -2.2
 Antos IV:
+  wd: Q57033817
   Maynard:
     label: Antos IV
     coordinates:
@@ -5596,6 +5630,7 @@ Bynaus:
       y: 98.9
       z: -46.3
 Phylos II:
+  wd: Q57033849
   Johnson:
     label: Phylos II
     coordinates:
@@ -5616,13 +5651,17 @@ Mu Leonis II:
       y: 106.3
       z: 9.8
 Theta Kiokis II:
+  wd: Q49643724
+  Mandel_2018:
+    coordinates:
+      x: 256.039
+      y: 26.449 
   Johnson:
     label: Theta Kiokis II
     coordinates:
       x: -76.9
       y: -145.9
       z: -12.7
-  wd: Q49643724
   Maynard:
     label: Melkot 6 (III)
     coordinates:
@@ -5658,6 +5697,7 @@ Ornara III, IV:
       y: -43.2
       z: -93.5
 Dimorus IV:
+  wd: Q57033864
   Maynard:
     label: Dimorus
     coordinates:
@@ -5706,6 +5746,7 @@ Tholia:
   fractions:
     - tholian
 Eminiar VII:
+  wd: Q57033872
   Maynard:
     label: Eminiar
     coordinates:
@@ -5814,6 +5855,7 @@ Barsoom IV:
       y: -72.486
       z: null
 Mudd:
+  wd: Q57033915
   Johnson:
     label: Mudd
     coordinates:
@@ -5911,6 +5953,7 @@ Murasaki 312:
       z: 8.1
   type: quasar
 Murasaki 312 Ionisation Cloud:
+  wd: Q48976127
   Mandel_2018:
     label: Ionisation Cloud
     coordinates:
@@ -5994,6 +6037,7 @@ Cheleb:
       y: 65.7
       z: 20.1
 Delta Vega:
+  wd: Q57033986
   Maynard:
     label: Delta Vega
     coordinates:
@@ -6045,6 +6089,7 @@ Gamma 7:
       y: 176.7
       z: 11.7
 Gamma Vertis IV:
+  wd: Q57034009
   Maynard:
     label: Gamma Vertis
     coordinates:
@@ -6287,6 +6332,7 @@ Star Desert:
     type: void
     outline: M642.493,557.044 C644.569,557.044 640.89,559.715 639.644,559.715 C638.398,559.715 636.439,560.249 634.302,559.893 C632.166,559.537 629.495,558.825 627.536,557.4 C625.578,555.976 621.661,555.264 620.058,556.866 C618.456,558.469 618.1,559.893 616.319,560.961 C614.539,562.03 608.129,562.03 606.527,561.496 C604.924,560.961 596.912,552.059 595.666,551.169 C594.419,550.278 587.831,550.991 586.229,549.922 C584.626,548.854 583.558,545.649 582.134,544.047 C580.709,542.444 573.231,541.02 571.807,537.281 C570.382,533.542 570.382,528.912 570.56,527.31 C570.739,525.707 569.848,524.283 569.848,522.503 C569.848,520.722 571.451,517.695 573.053,516.627 C574.656,515.559 575.368,513.244 574.656,510.039 C573.943,506.834 572.519,507.724 573.231,505.41 C573.943,503.095 575.368,500.246 575.368,498.466 C575.368,496.685 578.751,493.302 579.107,491.7 C579.463,490.098 579.641,483.154 580.175,481.551 C580.709,479.949 583.736,479.236 584.983,478.346 C586.229,477.456 586.229,474.785 588.544,474.429 C590.858,474.073 599.049,471.758 600.473,471.758 C601.897,471.758 604.212,474.251 604.924,474.251 C605.636,474.251 607.595,472.649 608.841,472.649 C610.088,472.649 616.854,471.58 619.168,472.471 C621.483,473.361 633.056,478.346 633.59,479.771 C634.124,481.195 635.015,485.468 637.329,487.605 C639.644,489.741 644.629,494.905 645.698,497.398 C646.766,499.89 652.285,511.463 651.929,513.956 C651.573,516.449 645.876,522.859 645.876,525.351 C645.876,527.844 649.259,542.8 648.19,546.183 C647.122,549.566 641.959,557.044 642.493,557.044 z
 Halka:
+  wd: Q57034023
   Maynard:
     label: Halka 3 (III)
     coordinates:
@@ -6294,6 +6340,7 @@ Halka:
       y: -137.3
       z: -6.7
 Hanson's Planet:
+  wd: Q57034024
   Maynard:
     label: Hanson´s Planet
     coordinates:
@@ -6301,6 +6348,7 @@ Hanson's Planet:
       y: 34.9
       z: 12.6
 Ingraham:
+  wd: Q57034026
   Maynard:
     label: Ingraham
     coordinates:
@@ -6473,6 +6521,7 @@ Lavinus:
       y: 11.1
       z: -10.4
 Triskelion:
+  wd: Q57033905
   Johnson:
     label: M24-Alpha II
     coordinates:
@@ -6486,6 +6535,7 @@ Triskelion:
       y: -59.1
       z: -75.8
 Makus III:
+  wd: Q57034043
   port: yes
   Maynard:
     label: Makus
@@ -6502,6 +6552,7 @@ Makus III:
   fractions:
   - federation
 Manark IV:
+  wd: Q57034045
   Maynard:
     label: Manark 4 (IV)
     coordinates:
@@ -6562,6 +6613,7 @@ Mira:
       y: 36.1
       z: -8.9
 New Paris:
+  wd: Q57034073
   Maynard:
     label: New Paris
     coordinates:
@@ -6619,6 +6671,7 @@ Sandara:
       y: 147.7
       z: 70.2
 Scalos:
+  wd: Q57034100
   Maynard:
     label: Scalos 5 (III)
     coordinates:
@@ -6655,6 +6708,7 @@ Tarsus IV:
       y: 138.5
       z: -27
 Thasus:
+  wd: Q57034112
   Maynard:
     label: Thasus
     coordinates:
@@ -6714,6 +6768,7 @@ Ursula:
       y: 215.3
       z: -335.6
 Tzenketh:
+  wd: Q57034142
   sto:
     label: Tzenketh
     coordinates:
@@ -6729,6 +6784,7 @@ Tzenketh:
   fractions:
     - tzenketh
 Alpha Majoris I:
+  wd: Q57033939
   Maynard:
     label: Alpha Majoris 2 (I)
     coordinates:
@@ -7057,6 +7113,7 @@ Azure:
       80.974,34.913 81.971,35.011 C82.968,35.109 83.178,35.598 82.754,36.609 C82.33,37.621
       83.243,38.599 83.21,39.023 C83.178,39.447 82.525,39.936 81.645,40.002 z
 Adelphous IV:
+  wd: Q2824293
   Mandel:
     label: Adelphous
     coordinates:
@@ -7099,6 +7156,7 @@ NGC-863:
       y: -14.029
       z:
 Hobus:
+  wd: Q57034187
   sto:
     label: Hobus
     coordinates:
@@ -7151,12 +7209,14 @@ Delphi:
       y: 95
       x: 113.5
 Omega Corvus:
+  wd: Q57034200
   judgement rites:
     label: Omega Corvus
     coordinates:
       y: 115
       x: 68.5
 Symphony Alpha:
+  wd: Q57034201
   judgement rites:
     label: Symphony Alpha
     coordinates:
@@ -7169,6 +7229,7 @@ Epsilon Sierra:
       y: 48.5
       x: 139
 Zhraad:
+  wd: Q57034209
   judgement rites:
     label: Zhraad
     coordinates:
@@ -7181,18 +7242,21 @@ Borea IV:
       y: -18.5
       x: 136.5
 Atabis:
+  wd: Q57034217
   judgement rites:
     label: Atabis
     coordinates:
       y: -79
       x: 141
 Klahmac:
+  wd: Q57034221
   judgement rites:
     label: Klahmac
     coordinates:
       y: -103.5
       x: 132.5
 Stonrak:
+  wd: Q57034224
   judgement rites:
     label: Stonrak
     coordinates:
@@ -7212,6 +7276,7 @@ Espoir Station:
       x: 107.5
   type: station
 Saracles:
+  wd: Q57034231
   judgement rites:
     label: Saracles
     coordinates:
@@ -7571,6 +7636,7 @@ Quebec V:
       z:
   type: post
 Galorndon Core:
+  wd: Q57033164
   Mandel:
     label: Galorndon Core
     coordinates:
@@ -7947,6 +8013,13 @@ Zalda:
       z:
   fractions:
   - federation
+Starbase 25:
+  wd: Q108510582
+  Mandel_2018:
+    label: Starbase 25
+    coordinates:
+      x: -36.022
+      y: -60.972
 Starbase 1:
   type: station
   Mandel_2018:
@@ -8099,6 +8172,7 @@ Bryma:
   fractions:
   - cardassian
 Dorvan V:
+  wd: Q3714419
   type: planet
   fractions:
   - cardassian
