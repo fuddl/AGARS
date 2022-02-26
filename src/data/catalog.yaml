@@ -881,8 +881,8 @@ Andoria:
   DIS:
     label: Andoria
     coordinates:
-      x: 6.26
-      y: 9.48
+      x: 10.791
+      y: 15
       z:
   Mandel:
     label: Andoria (Procyon, Alpha Canis Minoris)
@@ -922,8 +922,8 @@ Vulcan:
   DIS:
     label: Vulcan
     coordinates:
-      x: 4.7
-      y: 12.23
+      x: 8
+      y: 18
       z:
   Mandel:
     label: Vulcan (40 Eridani A)
@@ -1017,7 +1017,6 @@ Tagus III:
       y: 8.5
       z:
 Teneebia:
-  wd: Q57032322
   host: Alpha Comae Berenices
   Mandel:
     label: Teneebia (Diadem, Alpha Comae Beren)
@@ -2401,10 +2400,6 @@ Goren:
       z:
 Pahvo:
   wd: Q42762633
-  Mandel_2018:
-    coordinates:
-      x: 33.116
-      y: 72.625
   DIS:
     label: Pahvo
     coordinates:
@@ -2622,9 +2617,7 @@ Rakal:
   fractions:
   - cardassian
 Chin'Toka:
-  wd:
-    - Q57032770
-    - Q860747
+  wd: Q57032770
   Mandel:
     label: Chin´Toka
     coordinates:
@@ -3509,7 +3502,6 @@ Valakis:
       y: 25.6
       z:
 Coridan:
-  wd: Q64681785
   Mandel:
     label: Cordian (Chi 1 Orionis)
     coordinates:
@@ -5022,7 +5014,6 @@ Unefra III:
       y: 45.7
       z:
 Sarpedion V:
-  wd: Q3416128
   Mandel:
     label: Sarpedion
     coordinates:
@@ -5651,17 +5642,13 @@ Mu Leonis II:
       y: 106.3
       z: 9.8
 Theta Kiokis II:
-  wd: Q49643724
-  Mandel_2018:
-    coordinates:
-      x: 256.039
-      y: 26.449 
   Johnson:
     label: Theta Kiokis II
     coordinates:
       x: -76.9
       y: -145.9
       z: -12.7
+  wd: Q49643724
   Maynard:
     label: Melkot 6 (III)
     coordinates:
@@ -7113,7 +7100,6 @@ Azure:
       80.974,34.913 81.971,35.011 C82.968,35.109 83.178,35.598 82.754,36.609 C82.33,37.621
       83.243,38.599 83.21,39.023 C83.178,39.447 82.525,39.936 81.645,40.002 z
 Adelphous IV:
-  wd: Q2824293
   Mandel:
     label: Adelphous
     coordinates:
@@ -8013,13 +7999,6 @@ Zalda:
       z:
   fractions:
   - federation
-Starbase 25:
-  wd: Q108510582
-  Mandel_2018:
-    label: Starbase 25
-    coordinates:
-      x: -36.022
-      y: -60.972
 Starbase 1:
   type: station
   Mandel_2018:
@@ -8172,7 +8151,6 @@ Bryma:
   fractions:
   - cardassian
 Dorvan V:
-  wd: Q3714419
   type: planet
   fractions:
   - cardassian

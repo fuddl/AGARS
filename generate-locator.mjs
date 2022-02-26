@@ -53,13 +53,13 @@ const oWidth = 1000
 let shortDesc = `According to: Mandel, G. (2002). Star Trek Star Charts: The Complete Atlas of Star Trek (1 ed.). Pocket Books. ISBN 0-7434-3770-5`
 
 for (const key in c) {
-	for (const src of ["Mandel", "Mandel_2018", "sto", "PIC"]) {
+	for (const src of ["Mandel", "Mandel_2018", "sto", "PIC", "DIS"]) {
 		let fileSuffix = `in local space`
 		if (!c[key].hasOwnProperty(src)) {
 			continue
 		}
 		const data = c[key][src]
-		if (src !== "PIC") {
+		if (src !== "DIS") {
 			//continue
 		}
 		if (c[key]?.type === "post" || c[key]?.interesting === false) {
@@ -140,6 +140,7 @@ for (const key in c) {
 			let grid = ReactDOMServer.renderToStaticMarkup(gridData.render())
 			if (src === "PIC") {
 				zoom = 0.9
+				fileSuffix = "in PIC"
 				clipWidth = 345 / zoom
 				clipHeight = 195 / zoom
 				center.x = 45 - clipWidth / 2
@@ -154,6 +155,31 @@ for (const key in c) {
 								y="${15 * y}"
 								height="15"
 								width="15"
+								stroke="black"
+								stroke-width="${0.17290001 / zoom}"
+								fill="none"
+							/>`
+						)
+					}
+				}
+			}
+			if (src === "DIS") {
+				zoom = 0.9
+				fileSuffix = "in DIS"
+				clipWidth = 170 / zoom
+				clipHeight = 80 / zoom
+				center.x = -15
+				center.y = 5
+				grid = ""
+				for (let x = -1; x < 11; x++) {
+					for (let y = 0; y < 5; y++) {
+						grid = grid.concat(
+							"",
+							`<rect
+								x="${20 * x}"
+								y="${20 * y}"
+								height="20"
+								width="20"
 								stroke="black"
 								stroke-width="${0.17290001 / zoom}"
 								fill="none"
@@ -374,8 +400,8 @@ for (const key in c) {
 							zoom >= 1
 								? ""
 								: `<line
-										x1="0"
-										x2="0"
+										x1="${src === "DIS" ? 28 : 0}"
+										x2="${src === "DIS" ? 28 : 0}"
 										y1="-26200"
 										y2="26200"
 										stroke="black"
